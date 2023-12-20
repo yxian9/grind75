@@ -1,10 +1,9 @@
-// @algorithm @lc id=148 lang=typescript 
-// @title sort-list
+// @algorithm @lc id=237 lang=typescript 
+// @title delete-node-in-a-linked-list
 import * as a from 'algm'
 import { ListNode } from 'algm'
-// @test([4,2,1,3])=[1,2,3,4]
-// @test([-1,5,3,4,0])=[-1,0,3,4,5]
-// @test([])=[]
+// @test([4,5,1,9],5)=[4,1,9]
+// @test([4,5,1,9],1)=[4,5,9]
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -17,6 +16,9 @@ import { ListNode } from 'algm'
  * }
  */
 
-// function sortList(head: ListNode | null): ListNode | null {
-    
-// };
+/**
+ Do not return anything, modify it in-place instead.
+ */
+function deleteNode(node: ListNode | null): void {
+
+};

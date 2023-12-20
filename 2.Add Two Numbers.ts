@@ -1,4 +1,4 @@
-// @algorithm @lc id=2 lang=typescript 
+// @algorithm @lc id=2 lang=typescript
 // @title add-two-numbers
 // @test([2,4,3],[5,6,4])=[7,0,8]
 // @test([0],[0])=[0]
@@ -15,6 +15,6 @@
  * }
  */
 
-function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
-    
-};
+// function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+
+// };

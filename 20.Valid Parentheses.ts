@@ -14,7 +14,7 @@ function isValid(s: string): boolean {
   const stack: string[] = [];
   for (let i of s) {
     if (pair.has(i)) {
-      stack.push(pair.get(i));
+      stack.push(pair.get(i)!);
     } else {
       const last = stack.pop();
       if (last !== i) return false;

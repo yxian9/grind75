@@ -33,7 +33,7 @@ function mergeTwoLists(
 }
 // method2
 
-let mergeTwoLists2 = function (l1, l2) {
+let mergeTwoLists2 = function (l1: ListNode | null, l2: ListNode | null) {
   const prehead = new ListNode(-1);
 
   let prev = prehead;
