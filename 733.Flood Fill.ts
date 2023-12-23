@@ -32,7 +32,7 @@ const fill = (
   image[i][j] = color;
   visit[i][j] = true;
   for (let [x, y] of dir) {
-    fill(i + x, j + y, visit, image, oldColor, color);
+    fill(i + x, j + y, visit, image, oldColor, color); // no post recursion.
   }
 };
 function floodFill(
